@@ -1,35 +1,35 @@
 # NeuWorks
 
-Implementation of classic neural networks: Hamming, Hopfield, and Perceptron.
+Реализация классических нейронных сетей: Hamming, Hopfield и Perceptron.
 
-## Neural Networks
+## Нейронные сети
 
-This repository contains implementations of three fundamental neural network architectures:
+Репозиторий содержит реализации трех фундаментальных архитектур нейронных сетей:
 
-- **Hamming Network** - Pattern recognition and classification
-- **Hopfield Network** - Associative memory and pattern restoration  
-- **Perceptron** - Binary classification and learning
+- **Hamming Network** - распознавание и классификация образов
+- **Hopfield Network** - ассоциативная память и восстановление образов  
+- **Perceptron** - бинарная классификация и обучение
 
-## Files
+## Файлы
 
-- `hamming.py` - Hamming network implementation with digit recognition
-- `hopfield.py` - Hopfield network for pattern restoration
-- `perceptron.py` - Perceptron implementation for binary classification
+- `hamming.py` - реализация сети Хэмминга с распознаванием цифр
+- `hopfield.py` - сеть Хопфилда для восстановления образов
+- `perceptron.py` - реализация персептрона для бинарной классификации
 
-## Requirements
+## Требования
 
 - Python 3.x
 - NumPy
 
-## Installation
+## Установка
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Usage
+## Использование
 
-Run individual files to see neural network demonstrations:
+Запустите отдельные файлы для демонстрации нейронных сетей:
 
 ```bash
 python hamming.py
@@ -37,4 +37,4 @@ python hopfield.py
 python perceptron.py
 ```
 
-Each file contains complete implementation with examples and test cases.
+Каждый файл содержит полную реализацию с примерами и тестовыми случаями.
